@@ -1,1 +1,16 @@
-data/
+# 대용량 원천/중간 데이터는 로컬에만 유지한다.
+data/*
+!data/README.md
+!data/sample/
+!data/sample/**
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+notebooks/
+outputs/
+configs/
+*.pptx
+주소.txt
+data/processed_data/station_page.html
